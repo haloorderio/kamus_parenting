@@ -1,4 +1,4 @@
-Sitemap: https://orderio.id/kamus_parenting/sitemap.xml
+Sitemap: https://orderio.id/kamusparenting/sitemap.xml
 User-agent: *
 
 Allow: /
