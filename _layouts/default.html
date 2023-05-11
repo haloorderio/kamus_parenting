@@ -90,10 +90,20 @@
 						text-align: center;
 					}
 					.navbar b {
-						color: red;
+						color: black;
 						font-size: 1rem;
 					}
-				</style>
+					.blink {
+					    animation: blinker 1.5s linear infinite;
+					    color: white;
+					    font-family: sans-serif;
+					}
+					@keyframes blinker {
+					    50% {
+						opacity: 0;
+					    }
+					}
+    				</style>
 			</header>
 			{% endif %}
 
@@ -141,9 +151,9 @@
 				</section>
 
 				<div class="prose mx-6 my-10">
-					<a href="https://projects.co.id/public/browse_projects/listing/12_writing_and_translation?a=43bd30" target="_blank">
+					<!-- <a href="https://projects.co.id/public/browse_projects/listing/12_writing_and_translation?a=43bd30" target="_blank">
 						<img src="products/banner%20leaderboard%20(728x90)-2.png" alt="Projects.co.id">
-					</a>
+					</a> -->
 
 					<div id="searchable" class="my-6">
 						<a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_number }}&amp;text={{ site.whatsapp_text }}" target="_blank" rel="noopener" class="bg-emerald-500 hover:bg-emerald-600 text-white block py-3 px-4 rounded-lg w-full text-center mt-4" style="color:yellow">
