@@ -146,14 +146,16 @@ footer {
     }
 }
 
+/* Untuk judul web jadi loop typing */
+
 .typewriter h1 {
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .3em;
+  letter-spacing: .2em;
   font-weight: bold;
-  animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+  animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
   animation-iteration-count: infinite;
 }
 
@@ -182,11 +184,11 @@ footer {
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     font-weight: bold;
-    animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
     animation-iteration-count: infinite;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   @keyframes typing {
@@ -207,4 +209,32 @@ footer {
       border-color: orange;
     }
   }
+}
+
+/* Untuk header dan navbar */
+
+header {
+position: sticky;
+top: 0;
+background: white;
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+margin-top: -1.5rem;
+}
+.navbar {
+    padding: 1rem;
+    text-align: center;
+}
+.navbar b {
+	color: black;
+	font-size: 1rem;
+}
+.blink {
+    animation: blinker 2s linear infinite;
+    color: white;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+	opacity: 0;
+    }
 }
