@@ -222,11 +222,9 @@ margin-top: -5rem;
 } */
 
 header{
-	width:100%;
 	background: white;
 	top: 0;
 	position: fixed; /*trik posisi fix*/
-	margin-top: -1.5rem;
 	z-index:9999; /*supaya header selalu muncul di atas seluruh elemen*/
 }
 
