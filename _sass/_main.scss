@@ -213,13 +213,21 @@ footer {
 
 /* Untuk header dan navbar */
 
-header {
+/* header {
 position: sticky;
 top: 0;
 background: white;
 box-shadow: 0 0 10px rgba(0,0,0,.1);
 margin-top: -5rem;
+} */
+
+header{
+	width:100%;
+	background: white;
+	position:fixed; /*trik posisi fix*/
+	z-index:9999; /*supaya header selalu muncul di atas seluruh elemen*/
 }
+
 .navbar {
     padding: 1rem;
     text-align: center;
